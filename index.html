@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory it!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="backdrop"></div>
+    <div class="backdrop-blocker"></div>
+    <div class="modal">
+      <button type="modal--button">X</button>
+      <p class="modal--message"></p>
+    </div>
+    <main class="container">
+      <header class="score">
+        <div class="header--level">
+          <span>Level: </span><span id="level"></span>
+        </div>
+        <div class="header--count">
+          <span>Count: </span><span id="counter"></span>
+        </div>
+      </header>
+
+      <section class="game-board"></section>
+    </main>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

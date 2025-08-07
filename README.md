@@ -1,2 +1,1 @@
-# game-memory-cards
-Open two cards with the same character
+Game memory cards by ViaBobrovich
