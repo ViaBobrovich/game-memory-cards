@@ -97,6 +97,8 @@ header {
 
   height: 2rem;
   width: 2rem;
+
+  border-radius: 0 1rem 0 0;
 }
 
 .modal button:hover {
